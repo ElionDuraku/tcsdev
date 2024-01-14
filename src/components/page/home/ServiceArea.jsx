@@ -47,12 +47,10 @@ function ServiceArea(props) {
             data-wow-duration="1500ms"
           >
             <div className={`${"sec-title"} ${props.white}`}>
-              <span>Our Solutions</span>
-              <h2>Services</h2>
+              <span>Sherbimet tona</span>
+              <h2>Sherbimet</h2>
               <p>
-                Curabitur sed facilisis erat. Vestibulum pharetra eros eget
-                fringilla porttitor. on Duis a orci nunc. Suspendisse ac
-                convallis sapien, quis commodo libero.
+                TCS DEV mund te ofroje për ju sherbime nga me te ndryshmet ne lidhje me zhvillimin e webfaqeve, rrjetet sociale, krijimin e programeve etj...
               </p>
             </div>
           </div>
@@ -73,17 +71,16 @@ function ServiceArea(props) {
                       alt="service-icon"
                     />
                   </div>
-                  <h4>Web Design</h4>
+                  <h4>Web Development</h4>
                   <p>
-                    Integer purus odio, placerat nec rhoncu in, ullamcorper nec
-                    dolor.
+                    Ne si TCS DEV mund te krijojme për ju webfaqe unike dhe te personalizuar duke perdorur teknologjite me te fundit.
                   </p>
                   <div className="read-btn">
                     <Link
                       to={`${process.env.PUBLIC_URL}/service-details`}
                       onClick={scrollTop}
                     >
-                      Read More
+                      Meso me shumë
                     </Link>
                   </div>
                 </div>
@@ -103,17 +100,16 @@ function ServiceArea(props) {
                       alt="service-icon"
                     />
                   </div>
-                  <h4>UI/UX Design</h4>
+                  <h4>Social Media Managment</h4>
                   <p>
-                    Integer purus odio, placerat nec rhoncu in, ullamcorper nec
-                    dolor.
+                    TCS DEV mund te ofroje për biznesin tuaj krijimin e nje permbajtje unike ne rrjetet sociale.
                   </p>
                   <div className="read-btn">
                     <Link
                       to={`${process.env.PUBLIC_URL}/service-details`}
                       onClick={scrollTop}
                     >
-                      Read More
+                      Meso me shumë
                     </Link>
                   </div>
                 </div>
@@ -133,17 +129,16 @@ function ServiceArea(props) {
                       alt="service-icon"
                     />
                   </div>
-                  <h4>Software Development</h4>
+                  <h4>Desktop Programs</h4>
                   <p>
-                    Integer purus odio, placerat nec rhoncu in, ullamcorper nec
-                    dolor.
+                    TCS DEV mund te krijoj për ju programe prej me te ndryshmeve qe ju nevojiten për biznesin tuaj.
                   </p>
                   <div className="read-btn">
                     <Link
                       to={`${process.env.PUBLIC_URL}/service-details`}
                       onClick={scrollTop}
                     >
-                      Read More
+                      Meso me shumë
                     </Link>
                   </div>
                 </div>

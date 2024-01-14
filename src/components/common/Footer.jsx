@@ -17,30 +17,30 @@ function Footer(props) {
                     </Link>
                   </div>
                   <p>
-                    Integer purus odio, placerat nec ande rhoncus in,
-                    ullamcorper nec dolor. on aptent taciti sociosqu.
+                  TCS DEV jemi nje kompani ku merremi me krijimin e webfaqeve, perveq webfaqeve merremi edhe me menaxhimin e rrjeteve sociale, krijimin e desktop porgrams etj
                   </p>
                   <ul className="social-media-icons">
                     <li>
-                      <a href="https://www.facebook.com/">
+                      <a href="https://www.instagram.com/tcs.dev/">
+                        <i className="fab fa-instagram" />
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://www.facebook.com/tcsdevv">
                         <i className="fab fa-facebook-f" />
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.twitter.com/">
-                        <i className="fab fa-twitter" />
+                      <a href="https://www.tiktok.com/@tcs.dev?lang=en">
+                        <i className="fab fa-tiktok" />
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.pinterest.com/">
-                        <i className="fab fa-pinterest-p" />
+                      <a href="https://www.linkedin.com/company/86207256/admin/feed/posts/">
+                        <i className="fab fa-linkedin" />
                       </a>
                     </li>
-                    <li>
-                      <a href="https://www.instagram.com/">
-                        <i className="fab fa-instagram" />
-                      </a>
-                    </li>
+                
                   </ul>
                 </div>
               </div>
@@ -102,8 +102,8 @@ function Footer(props) {
                       <i className="fas fa-phone-alt" />
                     </div>
                     <div className="phone">
-                      <a href="tel:05661111985">+880 566 1111 985</a>
-                      <a href="tel:06571111576">+880 657 1111 576</a>
+                    <a href="tel:+38344644022">+383 44 644 022</a>
+                      <a href="tel:+38349246606">+383 49 246 606</a>
                     </div>
                   </div>
                   <div className="office-mail">
@@ -111,15 +111,14 @@ function Footer(props) {
                       <i className="far fa-envelope" />
                     </div>
                     <div className="email">
-                      <a href="tell:info@example.com">info@example.com</a>
-                      <a href="tell:info@support.com">info@support.com</a>
+                    <a href="tell:contact@tcs-dev.com">contact@tcs-dev.com</a>
                     </div>
                   </div>
                   <div className="address">
                     <div className="address-icon">
                       <i className="fas fa-map-marker-alt" />
                     </div>
-                    <p>168/170, Avenue 01, Mirpur DOHS, Bangladesh</p>
+                    <p>Pristina, Kosovo</p>
                   </div>
                 </div>
               </div>
@@ -130,8 +129,8 @@ function Footer(props) {
               <div className="col-12 col-md-4 col-lg-4 col-xl-5">
                 <div className="copy-txt">
                   <span>
-                    Copyright 2022 <b>Crea soft</b> | Design By{" "}
-                    <Link to={"#"}>Egens Lab</Link>
+                    Copyright 2024 | All rights reserved by{" "}
+                    <Link to={"www.tcs-dev.com"}>TCS DEV</Link>
                   </span>
                 </div>
               </div>

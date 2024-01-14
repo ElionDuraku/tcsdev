@@ -16,7 +16,7 @@ function WhyChooseUs() {
                   <img src={process.env.PUBLIC_URL + "/img/why-3.jpg"} alt="why-choose images" />
                 </div>
                 <div className="years">
-                  <h5>20+</h5>
+                  <h5>5+</h5>
                   <span>Years</span>
                 </div>
               </div>
@@ -24,8 +24,8 @@ function WhyChooseUs() {
             <div className="col-lg-6">
               <div className="why-choose-right">
                 <div className="sec-title layout2">
-                  <span>Why Choose</span>
-                  <h2>Phasellus tristique a nisi etal tristique Cras interdum.</h2>
+                  <span>Why Choose TCS DEV</span>
+                  <h2>TCS, Your Strategic Partner in the Digital Realm</h2>
                 </div>
                 <div className="counter-boxes">
                   <div className="count-box">
@@ -41,7 +41,7 @@ function WhyChooseUs() {
                     <h5>Expert Teams</h5>
                   </div>
                 </div>
-                <p>Integer purus odio, placerat nec rhoncus in, ullamcorper nec dolor. Class onlin aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos only himenaeos. Praesent nec neque at dolor venenatis consectetur eu quis ex. the Donec lacinia placerat felis non aliquam.Mauris nec justo vitae ante auctor tol euismod sit amet non ipsum. Praesent commodo at massa eget suscipit. Utani vitae enim velit. Ut ut posuere orci, id dapibus odio.</p>
+                <p>Choosing TCS is not just choosing a service provider; it's choosing a collaborative partner invested in your success. Join us on a journey where every project is a masterpiece, and every client is a part of our growing success story. Your digital excellence starts with TCS.</p>
                 <div className="buttons-group">
                   <span>24/7 Support</span>
                   <span>Unique Design</span>

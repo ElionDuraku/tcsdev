@@ -10,13 +10,13 @@ function ContactWrapper() {
               <div className="contact-left">
                 <div className="sec-title layout2">
                   <span>Get in touch</span>
-                  <h2>Contact us if you have more questions.</h2>
+                  <h2>Na kontaktoni nese keni me shumë pyetje.</h2>
                 </div>
                 <ul className="social-follow">
-                  <li><a rel="noopener noreferrer" href="https://www.facebook.com/"><i className="fab fa-facebook-f" /></a></li>
-                  <li><a rel="noopener noreferrer" href="https://www.twitter.com/"><i className="fab fa-twitter" /></a></li>
-                  <li><a rel="noopener noreferrer" href="https://www.pinterest.com/"><i className="fab fa-pinterest-p" /></a></li>
-                  <li><a rel="noopener noreferrer" href="https://www.instagram.com/"><i className="fab fa-instagram" /></a></li>
+                  <li><a rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100090631771965"><i className="fab fa-facebook-f" /></a></li>
+                  {/* <li><a rel="noopener noreferrer" href="https://www.twitter.com/"><i className="fab fa-twitter" /></a></li> */}
+                  {/* <li><a rel="noopener noreferrer" href="https://www.pinterest.com/"><i className="fab fa-pinterest-p" /></a></li> */}
+                  <li><a rel="noopener noreferrer" href="https://www.instagram.com/tcs.dev/"><i className="fab fa-instagram" /></a></li>
                 </ul>
                 <div className="informations">
                   <div className="single-info">
@@ -25,7 +25,7 @@ function ContactWrapper() {
                     </div>
                     <div className="info">
                       <h3>Location</h3>
-                      <p>168/170, Avenue 01, Old York Drive Rich Mirpur DOHS, Bangladesh</p>
+                      <p>Pristina, Kosovo</p>
                     </div>
                   </div>
                   <div className="single-info">
@@ -34,8 +34,8 @@ function ContactWrapper() {
                     </div>
                     <div className="info">
                       <h3>Phone</h3>
-                      <a href="tel:05661111985">+880 566 1111 985</a>
-                      <a href="tel:06571111576">+880 657 1111 576</a>
+                      <a href="tel:+38344644022">+383 44 644 022</a>
+                      <a href="tel:+38349246606">+383 49 246 606</a>
                     </div>
                   </div>
                   <div className="single-info">
@@ -44,8 +44,7 @@ function ContactWrapper() {
                     </div>
                     <div className="info">
                       <h3>Email</h3>
-                      <a href="tell:info@example.com">info@example.com</a>
-                      <a href="tell:info@support.com">info@support.com</a>
+                      <a href="tell:contact@tcs-dev.com">contact@tcs-dev.com</a>
                     </div>
                   </div>
                 </div>

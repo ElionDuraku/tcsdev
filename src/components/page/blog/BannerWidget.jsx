@@ -10,7 +10,7 @@ function BannerWidget() {
             Any Project <span>Call Now.</span>
             <img className="angle" src={process.env.PUBLIC_URL + "/img/arrow-angle.png"} alt="bannerImg" />
           </h3>
-          <a href="tel:11231231234">+1-123-123-1234</a>
+          <a href="tel:049246606">+383 49 246 606</a>
         </div>
       </div>
     </>

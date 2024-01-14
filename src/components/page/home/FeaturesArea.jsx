@@ -8,9 +8,9 @@ function FeaturesArea() {
         <div className="container">
           <div className="title-wrap  wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
             <div className="sec-title white">
-              <span>Care Study</span>
+              <span>TCS DEV</span>
               <h2>Features</h2>
-              <p>Curabitur sed facilisis erat. Vestibulum pharetra eros eget fringilla porttitor. on Duis a orci nunc. Suspendisse ac convallis sapien, quis commodo libero.</p>
+              <p>Me poshte mund te shihni disa statistika rreth puneve tone qe kemi kryer deri me tani dhe puneve ne process.</p>
             </div>
           </div>
           <div className="row g-4">
@@ -20,7 +20,7 @@ function FeaturesArea() {
                   <div className="icon">
                     <img src={process.env.PUBLIC_URL + "/img/icons/feature-icon-1.png"} alt="Feature-img" />
                   </div>
-                  <CountUp end={150} delay={3} duration={5}  /> <sup>+</sup>
+                  <CountUp end={120} delay={3} duration={5}  /> <sup>+</sup>
                   <h4>Project Completed</h4>
                 </div>
               </div>
@@ -31,7 +31,7 @@ function FeaturesArea() {
                   <div className="icon">
                     <img src={process.env.PUBLIC_URL + "/img/icons/feature-icon-2.png"} alt="Feature-img" />
                   </div>
-                  <CountUp end={2150} delay={3} duration={5} /> <sup>+</sup>
+                  <CountUp end={500} delay={3} duration={5} /> <sup>+</sup>
                   <h4>Satisfied Clients</h4>
                 </div>
               </div>
@@ -42,7 +42,7 @@ function FeaturesArea() {
                   <div className="icon">
                     <img src={process.env.PUBLIC_URL + "/img/icons/feature-icon-3.png"} alt="Feature-img" />
                   </div>
-                  <CountUp end={120} delay={3} duration={5} /> <sup>+</sup>
+                  <CountUp end={10} delay={3} duration={2} /> <sup>+</sup>
                   <h4>Expert Teams</h4>
                 </div>
               </div>
@@ -53,8 +53,8 @@ function FeaturesArea() {
                   <div className="icon">
                     <img src={process.env.PUBLIC_URL + '/img/icons/feature-icon-1.png'} alt="Feature-img" />
                   </div>
-                  <CountUp end={50} delay={3} duration={5} /> <sup>+</sup>
-                  <h4>Win Awards</h4>
+                  <CountUp end={15} delay={3} duration={2} /> <sup>+</sup>
+                  <h4>In Progress</h4>
                 </div>
               </div>
             </div>

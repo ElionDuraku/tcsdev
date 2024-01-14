@@ -8,12 +8,10 @@ function ProjectWrap(props) {
         <div className="container">
           <div className="title-wrap">
             <div className={`${"sec-title"} ${props.white}`}>
-              <span>Case Study</span>
-              <h2>Project</h2>
+              <span>TCS DEV</span>
+              <h2>Projektet</h2>
               <p>
-                Curabitur sed facilisis erat. Vestibulum pharetra eros eget
-                fringilla porttitor. on Duis a orci nunc. Suspendisse ac
-                convallis sapien, quis commodo libero.
+                Me poshte mund te shihni projektet tona qe kemi perfunduar ne fusha te ndryshme...
               </p>
             </div>
           </div>

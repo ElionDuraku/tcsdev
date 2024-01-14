@@ -8,8 +8,8 @@ function PriceCardWrap(props) {
         <div className="container">
           <div className="title-wrap">
             <div className={`${"sec-title"}`}>
-              <span>Getting Start</span>
-              <h2>Pricing Plan</h2>
+              <span>TCS DEV </span>
+              <h2>Plani i çmimeve</h2>
               <p>
                 Curabitur sed facilisis erat. Vestibulum pharetra eros eget
                 fringilla porttitor. on Duis a orci nunc. Suspendisse ac

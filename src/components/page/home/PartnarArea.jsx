@@ -43,8 +43,8 @@ function PartnarArea() {
           <div className="row align-items-center">
             <div className="col-lg-3">
               <div className="sec-title white layout2">
-                <span>Satisfied Client</span>
-                <h2>Our Partner</h2>
+                <span>TCS DEV</span>
+                <h2>Partnerët tanë</h2>
                 <div className="-partnerslider-navigator">
                   <div className="swiper-button-prev-c"><i className="bi bi-chevron-left" /></div>
                   <div className="swiper-button-next-c"><i className="bi bi-chevron-right" /></div>

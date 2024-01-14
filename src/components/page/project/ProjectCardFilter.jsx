@@ -51,11 +51,18 @@ function ProjectCardFilter() {
               All
             </li>
             <li
+              onClick={() => dispatch({ type: "developing" })}
+              data-filter=".developing"
+              className={state.statementActive === "developing" ? "active" : ""}
+            >
+              Web Developing
+            </li>
+            <li
               onClick={() => dispatch({ type: "UI" })}
               data-filter=".ui"
               className={state.statementActive === "UI" ? "active" : ""}
             >
-              UI/UX
+              Social Media Managment
             </li>
             <li
               onClick={() => dispatch({ type: "web" })}
@@ -65,18 +72,11 @@ function ProjectCardFilter() {
               Web Design
             </li>
             <li
-              onClick={() => dispatch({ type: "developing" })}
-              data-filter=".developing"
-              className={state.statementActive === "developing" ? "active" : ""}
-            >
-              Developing
-            </li>
-            <li
               onClick={() => dispatch({ type: "Graphic" })}
               data-filter=".graphic"
               className={state.statementActive === "Graphic" ? "active" : ""}
             >
-              Graphic Design
+              Desktop Programms
             </li>
           </ul>
         </div>
@@ -96,7 +96,7 @@ function ProjectCardFilter() {
                 <h4>{details}</h4>
                 <div className="view-btn">
                   <Link to={`${process.env.PUBLIC_URL}/project-details`}>
-                    view details
+                    shiko detajet
                   </Link>
                 </div>
               </div>
