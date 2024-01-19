@@ -1,6 +1,6 @@
 import React from "react";
 import AnimateLine from "../../common/AnimateLine";
-import AboutArea from "../home/AboutArea";
+import AboutArea from "../home/AboutAreas";
 import FeaturesArea from "../home/FeaturesArea";
 import LatesPost from "../home/LatesPost";
 import Testimonial from "../home/Testimonial";

@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../../common/Footer";
 import Header from "../../common/Header";
 import SubscribArea from "../../common/SubscribArea";
-import AboutArea from "../home/AboutArea";
+import AboutArea from "../home/AboutAreas";
 import FeaturesArea from "../home/FeaturesArea";
 import PartnarArea from "../home/PartnarArea";
 import ServiceArea from "../home/ServiceArea";

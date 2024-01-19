@@ -46,41 +46,41 @@ function Footer(props) {
               </div>
               <div className="col-md-3 col-lg-3 col-xl-3">
                 <div className="footer-widget">
-                  <h4>Our Services</h4>
+                  <h4>Sherbimet Tona</h4>
                   <ul className="footer-menu">
-                    <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Strategy &amp; Research</Link>
-                    </li>
                     <li>
                       <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Web Development</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Web Solution</Link>
+                    <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Social Media Managment</Link>
+                    </li>
+                    <li>
+                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Desktop Programs</Link>
                     </li>
                     <li>
                       <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Digital Merketing</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>App Design</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>App Development</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>App Development</Link>
+                      {/* <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>App Design</Link> */}
                     </li>
                   </ul>
                 </div>
               </div>
               <div className="col-md-3 col-lg-3 col-xl-3">
                 <div className="footer-widget">
-                  <h4>Quick Links</h4>
+                  <h4>Links</h4>
                   <ul className="footer-menu">
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/about`} onClick={scrollTop}>About Us</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/about`} onClick={scrollTop}>Rreth Nesh</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service`} onClick={scrollTop}>Services</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/service`} onClick={scrollTop}>Shërbimet</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/project`} onClick={scrollTop}>Project</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/project`} onClick={scrollTop}>Projektet</Link>
                     </li>
                     <li>
                       <Link to={`${process.env.PUBLIC_URL}/blog`} onClick={scrollTop}>Blog</Link>

@@ -42,7 +42,7 @@ function FeaturesArea() {
                   <div className="icon">
                     <img src={process.env.PUBLIC_URL + "/img/icons/feature-icon-3.png"} alt="Feature-img" />
                   </div>
-                  <CountUp end={10} delay={3} duration={2} /> <sup>+</sup>
+                  <CountUp end={5} delay={1} duration={1} /> <sup>+</sup>
                   <h4>Expert Teams</h4>
                 </div>
               </div>

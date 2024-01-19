@@ -16,13 +16,13 @@ function AboutArea(props) {
               </div>
               <div className={`${"about-left"} ${props.layoutClass}`}>
                 <h3>We do design, code &amp; develop Software finally launch.</h3>
-                <p>Welcome to TCS, where innovation meets excellence in the digital realm. As a dynamic and forward-thinking company, we take pride in crafting immersive online experiences that elevate your brand and drive meaningful connections with your audience. Established with a passion for technology and a commitment to client success, TCS stands as a beacon of creativity, expertise, and results.</p>
+                <p>Mirë se vini në TCS, ku inovacioni takohet me përsosmërinë në fushën dixhitale. Si një kompani dinamike dhe që mendon përpara, ne krenohemi me krijimin e përvojave gjithëpërfshirëse në internet që lartësojnë markën tuaj dhe krijojnë lidhje domethënëse me audiencën tuaj. E krijuar me një pasion për teknologjinë dhe një përkushtim ndaj suksesit të klientit, TCS qëndron si një fener kreativiteti, ekspertize dhe rezultatesh.</p>
                 <div className={`${"company-since"} ${props.layoutClass}`}>
                   <div className="company-logo">
-                    <img src={mobileLogo} alt="about-images" style={{width: "50px"}} />
+                    <img src="" alt="about-images" style={{width: "50px"}} />
                   </div>
                   <strong>#1</strong>
-                  <h4>Best Creative IT Agency And Solutions <span>Since 2022.</span></h4>
+                  <h4>Technology Computing and Solution <span>Since 2022.</span></h4>
                 </div>
               </div>
             </div>
@@ -47,6 +47,7 @@ function AboutArea(props) {
       <React.Fragment>
         <ModalVideo
           channel="youtube"
+          
           isOpen={isOpen}
           videoId="IUN664s7N-c"
           autoplay = {1}

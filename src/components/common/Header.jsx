@@ -68,7 +68,7 @@ function Header() {
           <div className="logo">
             <Link to={"/"} onClick={scrollTop}>
               <img
-                src={process.env.PUBLIC_URL + "/img/logo.svg"}
+                src={process.env.PUBLIC_URL + "/img/logo.png"}
                 alt="logo-img"
               />
             </Link>
@@ -79,7 +79,7 @@ function Header() {
             <div className="mobile-menu-logo">
               <Link to={"/"} onClick={scrollTop}>
                 <img
-                  src={process.env.PUBLIC_URL + "img/logo-dark.svg"}
+                  src={process.env.PUBLIC_URL + "img/logo-dark.png"}
                   alt="images"
                 />
               </Link>
