@@ -10,7 +10,7 @@ function PriceCard(props) {
         <span>{props.priceCatagory}</span>
         <strong>${props.price}<sub>/{props.time}</sub></strong>
         <ul className="item-list">
-          <li><i className="bi bi-check" />{props.responsive} Pages Responsive Website</li>
+          <li><i className="bi bi-check" />{props.responsive} Pages sssResponsive Website</li>
           <li><i className="bi bi-check" />{props.ppc}PPC Campaigns</li>
           <li><i className="bi bi-check" />{props.seo} SEO Keyword</li>
           <li><i className="bi bi-check" />{props.facebook} Facebook Camplaigns</li>

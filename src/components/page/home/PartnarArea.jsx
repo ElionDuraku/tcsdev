@@ -56,27 +56,27 @@ function PartnarArea() {
                 <div className="swiper-wrapper">
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/partner/partner-1.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/partner/1.png"} alt="partnar-img" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/partner/partner-2.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/partner/2.png"} alt="partnar-img" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/partner/partner-3.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/partner/3.png"} alt="partnar-img" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/partner/partner-4.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/partner/4.png"} alt="partnar-img" />
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="single-partner">
-                      <img src={process.env.PUBLIC_URL + "/img/partner/partner-5.png"} alt="partnar-img" />
+                      <img src={process.env.PUBLIC_URL + "/img/partner/5.png"} alt="partnar-img" />
                     </div>
                   </SwiperSlide>
                 </div>

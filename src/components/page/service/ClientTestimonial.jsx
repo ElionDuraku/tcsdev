@@ -82,7 +82,7 @@ function ClientTestimonial() {
                   Impressed by TCS DEV social media management expertise! They have a knack for enhancing brands' online presence and driving engagement. Highly recommended for effective and reliable social media solutions.
                   </p>
                   <div className="reviewer">
-                    <img src={process.env.PUBLIC_URL +"/img/reivewer.jpg"} alt="" />
+                    <img src={process.env.PUBLIC_URL +"/img/reivewer.png"} alt="" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -114,7 +114,7 @@ function ClientTestimonial() {
                   It’s a serious company that helps small businesses get big. These guys opened my way of success.
                   </p>
                   <div className="reviewer">
-                    <img src={process.env.PUBLIC_URL + "/img/reivewer-1.jpg"} alt="" />
+                    <img src={process.env.PUBLIC_URL + "/img/reivewer.png"} alt="" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -146,7 +146,7 @@ function ClientTestimonial() {
                   The best page for social medias management. Amazing staff and service.
                   </p>
                   <div className="reviewer">
-                    <img src={process.env.PUBLIC_URL +"/img/reivewer.jpg"} alt="" />
+                    <img src={process.env.PUBLIC_URL +"/img/reivewer.png"} alt="" />
                   </div>
                 </div>
               </SwiperSlide>
@@ -178,7 +178,7 @@ function ClientTestimonial() {
                   The bestttt
                   </p>
                   <div className="reviewer">
-                    <img src={process.env.PUBLIC_URL + "/img/reivewer-1.jpg"} alt="" />
+                    <img src={process.env.PUBLIC_URL + "/img/reivewer.png"} alt="" />
                   </div>
                 </div>
               </SwiperSlide>

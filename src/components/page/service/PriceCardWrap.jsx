@@ -11,9 +11,7 @@ function PriceCardWrap(props) {
               <span>TCS DEV </span>
               <h2>Plani i çmimeve</h2>
               <p>
-                Curabitur sed facilisis erat. Vestibulum pharetra eros eget
-                fringilla porttitor. on Duis a orci nunc. Suspendisse ac
-                convallis sapien, quis commodo libero.
+                Ketu mund te shihni çmimet për pakot për Social Media Managment dhe Web Development.
               </p>
             </div>
           </div>
@@ -32,7 +30,7 @@ function PriceCardWrap(props) {
                       aria-controls="pills-home"
                       aria-selected="true"
                     >
-                      Pay Monthly
+                      Social Media Management
                     </button>
                   </li>
                   <li className="nav-item" role="presentation">
@@ -46,7 +44,7 @@ function PriceCardWrap(props) {
                       aria-controls="pills-profile"
                       aria-selected="false"
                     >
-                      Pay Yearly
+                      Web Development
                     </button>
                   </li>
                 </ul>
