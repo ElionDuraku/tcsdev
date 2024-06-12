@@ -25,7 +25,7 @@ function HomePageOne() {
             <PartnarArea/>
             <PriceCardWrap/>
             <Testimonial/>
-            <TeamWrap/>
+
             <LatesPost/>
             <SubscribArea/>
         </div>
