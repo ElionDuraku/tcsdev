@@ -23,7 +23,7 @@ function ServiceCardWrap() {
               <ServiceCard serviceNumber={2} image="/img/icons/service-icon-2.png" title="Social Media Management" details="TCS DEV mund te ofroje për biznesin tuaj krijimin e nje permbajtje unike ne rrjetet sociale."/>
           </div>
           <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
-              <ServiceCard serviceNumber={3}  image="/img/icons/service-icon-3.png" title="Desktop Programms" details="TCS DEV mund te krijoj për ju programe prej me te ndryshmeve qe ju nevojiten për biznesin tuaj."/>
+              <ServiceCard serviceNumber={3}  image="/img/icons/service-icon-3.png" title="Desktop Application" details="TCS DEV mund te krijoj për ju programe prej me te ndryshmeve qe ju nevojiten për biznesin tuaj."/>
           </div>
           <div class="col-md-6 col-lg-4 wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
               <ServiceCard serviceNumber={4} image="/img/icons/service-icon-4.png" title="Video Editing" details="Ofrojm editimin e videove dhe realizimin e tyre ne menyre profesionale me pajisjet me te fundit."/>
