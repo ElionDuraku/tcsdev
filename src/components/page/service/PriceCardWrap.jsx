@@ -68,7 +68,7 @@ function PriceCardWrap(props) {
                     cartTitle="Small Business"
                     priceCatagory="Single Business"
                     layoutClass="layout2"
-                    price={15.99}
+                    price={149.99}
                     time="Per Month"
                     responsive={10}
                     ppc={5}
@@ -86,7 +86,7 @@ function PriceCardWrap(props) {
                     cartTitle="Professional"
                     priceCatagory="Small team"
                     layoutClass="layout2"
-                    price={99.5}
+                    price={199.5}
                     time="Per Month"
                     responsive={10}
                     ppc={5}
@@ -104,7 +104,7 @@ function PriceCardWrap(props) {
                     cartTitle="Enterprice"
                     priceCatagory="Large Team"
                     layoutClass="layout2"
-                    price={120.99}
+                    price={249.99}
                     time="Per Month"
                     responsive={10}
                     ppc={5}
