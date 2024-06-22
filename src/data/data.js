@@ -97,48 +97,7 @@ const data = [
         category: "web",
         details:"Tregukos",
     },
-    // {
-    //     id:7,
-    //     title:"3D Design",
-    //     image:"img/project/project-5.png",
-    //     category: "Graphic",
-    //     details:"Low Poly Base Mesh",
-    // },
-    // {
-    //     id:8,
-    //     title:"3D Design",
-    //     image:"img/project/project-1.png",
-    //     category: "Graphic",
-    //     details:"Low Poly Base Mesh",
-    // },
-    // {
-    //     id:9,
-    //     title:"UI Kit",
-    //     image:"img/project/project-2.png",
-    //     category: "UI",
-    //     details:"Low Poly Base Mesh",
-    // },
-    // {
-    //     id:10,
-    //     title:"UI Kit",
-    //     image:"img/project/project-4.png",
-    //     category: "UI",
-    //     details:"Low Poly Base Mesh",
-    // },
-    // {
-    //     id:11,
-    //     title:"App",
-    //     image:"img/project/project-3.png",
-    //     category: "App",
-    //     details:"Mobile Crypto Wallet",
-    // },
-    // {
-    //     id:12,
-    //     title:"App",
-    //     image:"img/project/project-1.png",
-    //     category: "App",
-    //     details:"Mobile Crypto Wallet",
-    // },
+
 ];
 
 export default data;
