@@ -20,7 +20,7 @@ function FeaturesArea() {
                   <div className="icon">
                     <img src={process.env.PUBLIC_URL + "/img/icons/feature-icon-1.png"} alt="Feature-img" />
                   </div>
-                  <CountUp end={120} delay={3} duration={5}  /> <sup>+</sup>
+                  <CountUp end={50} delay={3} duration={5}  /> <sup>+</sup>
                   <h4>Project Completed</h4>
                 </div>
               </div>
@@ -31,7 +31,7 @@ function FeaturesArea() {
                   <div className="icon">
                     <img src={process.env.PUBLIC_URL + "/img/icons/feature-icon-2.png"} alt="Feature-img" />
                   </div>
-                  <CountUp end={500} delay={3} duration={5} /> <sup>+</sup>
+                  <CountUp end={50} delay={3} duration={5} /> <sup>+</sup>
                   <h4>Satisfied Clients</h4>
                 </div>
               </div>

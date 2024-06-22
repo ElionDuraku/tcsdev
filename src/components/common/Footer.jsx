@@ -55,13 +55,13 @@ function Footer(props) {
                     <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Social Media Managment</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Desktop Programs</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Desktop Application</Link>
                     </li>
                     <li>
                       <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Digital Merketing</Link>
                     </li>
                     <li>
-                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>App Development</Link>
+                      <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>Mobile App Development</Link>
                     </li>
                     <li>
                       {/* <Link to={`${process.env.PUBLIC_URL}/service-details`} onClick={scrollTop}>App Design</Link> */}
