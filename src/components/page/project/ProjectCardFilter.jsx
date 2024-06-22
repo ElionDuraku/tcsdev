@@ -20,15 +20,12 @@ function ProjectCardFilter() {
         setItem(data);
       
         return { statementActive: "dataAll" };
-      case "UI":
-        filterItem("UI");
-        return { statementActive: "UI" };
+      case "smm":
+        filterItem("smm");
+        return { statementActive: "smm" };
       case "web":
         filterItem("web");
         return { statementActive: "web" };
-      case "developing":
-        filterItem("developing");
-        return { statementActive: "developing" };
       case "Graphic":
         filterItem("Graphic");
         return { statementActive: "Graphic" };
@@ -51,16 +48,9 @@ function ProjectCardFilter() {
               All
             </li>
             <li
-              onClick={() => dispatch({ type: "developing" })}
-              data-filter=".developing"
-              className={state.statementActive === "developing" ? "active" : ""}
-            >
-              Web Developing
-            </li>
-            <li
-              onClick={() => dispatch({ type: "UI" })}
-              data-filter=".ui"
-              className={state.statementActive === "UI" ? "active" : ""}
+              onClick={() => dispatch({ type: "smm" })}
+              data-filter=".smm"
+              className={state.statementActive === "smm" ? "active" : ""}
             >
               Social Media Managment
             </li>
@@ -71,13 +61,7 @@ function ProjectCardFilter() {
             >
               Web Design
             </li>
-            <li
-              onClick={() => dispatch({ type: "Graphic" })}
-              data-filter=".graphic"
-              className={state.statementActive === "Graphic" ? "active" : ""}
-            >
-              Desktop Programms
-            </li>
+            
           </ul>
         </div>
       </div>

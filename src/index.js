@@ -10,7 +10,6 @@ import BlogStandard from "./components/page/BlogStandard/BlogStandard";
 import Contact from "./components/page/contact/Contact";
 import ErrorPage from "./components/page/error/ErrorPage";
 import Faq from "./components/page/faq/Faq";
-import HomePageTwo from "./components/page/homepage2/HomePageTwo";
 import Pricing from "./components/page/pricing/Pricing";
 import Project from "./components/page/project/Project";
 import ProjectDetails from "./components/page/ProjectDetails/ProjectDetails";
@@ -36,7 +35,6 @@ function Root() {
       {/*main layout*/}
       <Route exact path="/" component={MainLayout} />
       {/* secound layout */}
-      <Route exact path="/index2" component={HomePageTwo} />
       {/* all inner page load layout component */}
       <Layout>
         {/* <Route

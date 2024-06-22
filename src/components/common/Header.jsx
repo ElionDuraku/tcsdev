@@ -93,37 +93,11 @@ function Header() {
                 onClick={() => dispatch({ type: "homeOne" })}
               >
                 <Link
-                  to={"#"}
+                  to={`${process.env.PUBLIC_URL}`}
                   className={state.activeMenu === "homeOne" ? "active" : ""}
                 >
                   Home
                 </Link>
-                <i className="bi bi-chevron-down" />
-                <ul
-                  className={
-                    state.activeMenu === "homeOne"
-                      ? "sub-menu d-block"
-                      : "sub-menu d-none"
-                  }
-                >
-                  <li>
-                    <NavLink
-                      to={"/"}
-                      onClick={scrollTop}
-                      className={state.activeMenu === "homeOne" ? "active" : ""}
-                    >
-                      Home 01
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/index2`}
-                      onClick={scrollTop}
-                    >
-                      Home 02
-                    </NavLink>
-                  </li>
-                </ul>
               </li>
               <li>
                 <NavLink
@@ -134,149 +108,12 @@ function Header() {
                 </NavLink>
               </li>
               <li>
-                <Link to={"#"} onClick={() => dispatch({ type: "service" })}>
-                  Service
+                <Link to={`${process.env.PUBLIC_URL}/project`} onClick={() => dispatch({ type: "project" })}>
+                  Projects
                 </Link>
-                <i className="bi bi-chevron-down" />
-                <ul
-                  className={
-                    state.activeMenu === "service"
-                      ? "sub-menu d-block"
-                      : "sub-menu d-none"
-                  }
-                >
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/service`}
-                      onClick={scrollTop}
-                    >
-                      Service
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/service-details`}
-                      onClick={scrollTop}
-                    >
-                      Service Details
-                    </NavLink>
-                  </li>
-                </ul>
               </li>
-              <li>
-                <Link to={"#"} onClick={() => dispatch({ type: "project" })}>
-                  Project
-                </Link>
-                <i className="bi bi-chevron-down" />
-                <ul
-                  className={
-                    state.activeMenu === "project"
-                      ? "sub-menu d-block"
-                      : "sub-menu d-none"
-                  }
-                >
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/project`}
-                      onClick={scrollTop}
-                    >
-                      Project
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/project-details`}
-                      onClick={scrollTop}
-                    >
-                      Project Details
-                    </NavLink>
-                  </li>
-                </ul>
-              </li>
-              <li className="has-child">
-                <Link to={"#"} onClick={() => dispatch({ type: "blog" })}>
-                  Blog
-                </Link>
-                <i className="bi bi-chevron-down" />
-                <ul
-                  className={
-                    state.activeMenu === "blog"
-                      ? "sub-menu d-block"
-                      : "sub-menu d-none"
-                  }
-                >
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/blog`}
-                      onClick={scrollTop}
-                    >
-                      Blog
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/blog-standard`}
-                      onClick={scrollTop}
-                    >
-                      Blog standard
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/blog-details`}
-                      onClick={scrollTop}
-                    >
-                      Blog Details
-                    </NavLink>
-                  </li>
-                </ul>
-              </li>
-              <li className="has-child">
-                <Link to={"#"} onClick={() => dispatch({ type: "page" })}>
-                  Pages
-                </Link>
-                <i className="bi bi-chevron-down" />
-                <ul
-                  className={
-                    state.activeMenu === "page"
-                      ? "sub-menu d-block"
-                      : "sub-menu d-none"
-                  }
-                >
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/team`}
-                      onClick={scrollTop}
-                    >
-                      Team
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/pricing`}
-                      onClick={scrollTop}
-                    >
-                      Pricing
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/faq`}
-                      onClick={scrollTop}
-                    >
-                      FAQs
-                    </NavLink>
-                  </li>
-                  <li>
-                    <NavLink
-                      to={`${process.env.PUBLIC_URL}/error`}
-                      onClick={scrollTop}
-                    >
-                      Error 404
-                    </NavLink>
-                  </li>
-                </ul>
-              </li>
+              
+              
               <li>
                 <NavLink
                   to={`${process.env.PUBLIC_URL}/contact`}
