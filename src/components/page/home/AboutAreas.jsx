@@ -18,9 +18,7 @@ function AboutArea(props) {
                 <h3>Kush është TCS DEV?</h3>
                 <p>Mirë se vini në TCS, ku inovacioni takohet me përsosmërinë në fushën dixhitale. Si një kompani dinamike dhe që mendon përpara, ne krenohemi me krijimin e përvojave gjithëpërfshirëse në internet që lartësojnë markën tuaj dhe krijojnë lidhje domethënëse me audiencën tuaj. E krijuar me një pasion për teknologjinë dhe një përkushtim ndaj suksesit të klientit, TCS qëndron si një fener kreativiteti, ekspertize dhe rezultatesh.</p>
                 <div className={`${"company-since"} ${props.layoutClass}`}>
-                  <div className="company-logo">
-                    <img src="" alt="about-images" style={{width: "50px"}} />
-                  </div>
+                  
                   <strong>#1</strong>
                   <h4>Technology Computing and Solution <span>Since 2022.</span></h4>
                 </div>
